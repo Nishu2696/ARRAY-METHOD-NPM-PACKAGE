@@ -80,16 +80,56 @@ module.exports.len_array = len_array;
 
 //find the element when the index is given
 
-
+let index_element = (a, b) => {
+    let arr = a.map(item => item);
+    if((b > 0) && (b < arr.length)){
+        return arr[b];
+    }
+    else{
+        if(b < 0){
+            return "Index range is negataive"
+        }
+        else{
+            return "Index range is more than the length of the array"
+        }
+    }
+}
 
 module.exports.index_element = index_element;
 
 //join two arrays and sorting them in ascending order
 
+let join = (arr, b) => {
+    arr = arr.concat(b);
+    let len = arr.length;
+    for(let i = 0; i < len; i++){
+        for(let j = i+1; j < len ; j++){
+            if( arr[i] > arr[j]){
+                temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+            }
+        }
+    }
+    return arr;
+}
+
 module.exports.join = join;
+
 //delete the last element from the array
 
+let del_last = (arr) => {
+    arr.pop();
+    return arr;
+}
+
 module.exports.del_last = del_last;
+
 //delete the first element from the array
+
+let del_first = (arr) => {
+    arr.shift();
+    return arr;
+}
 
 module.exports.del_first = del_first;
