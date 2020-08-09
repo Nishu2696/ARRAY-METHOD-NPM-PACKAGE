@@ -99,7 +99,7 @@ module.exports.index_element = index_element;
 
 //join two arrays and sorting them in ascending order
 
-let join = (arr, b) => {
+let join_ascending = (arr, b) => {
     arr = arr.concat(b);
     let len = arr.length;
     for(let i = 0; i < len; i++){
@@ -114,7 +114,26 @@ let join = (arr, b) => {
     return arr;
 }
 
-module.exports.join = join;
+module.exports.join = join_ascending;
+
+//join two arrays and sorting them in descending order
+
+let join_descending = (arr, b) => {
+    arr = arr.concat(b);
+    let len = arr.length;
+    for(let i = 0; i < len; i++){
+        for(let j = i+1; j < len ; j++){
+            if( arr[i] < arr[j]){
+                temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+            }
+        }
+    }
+    return arr;
+}
+
+module.exports.join = join_descending;
 
 //delete the last element from the array
 
@@ -133,3 +152,9 @@ let del_first = (arr) => {
 }
 
 module.exports.del_first = del_first;
+
+//delete the element based on the index and return array with the deleted index element
+
+let del_index_element = (arr, b) => {}
+
+module.exports.del_index_element = del_index_element;
