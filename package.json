@@ -1,0 +1,22 @@
+{
+  "name": "array_methods",
+  "version": "1.0.0",
+  "description": "Array methods developed for ease of use for developers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nishu2696/ARRAY-METHOD-NPM-PACKAGE.git"
+  },
+  "keywords": [
+    "array_methods"
+  ],
+  "author": "Nishaanth Vikram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nishu2696/ARRAY-METHOD-NPM-PACKAGE/issues"
+  },
+  "homepage": "https://github.com/Nishu2696/ARRAY-METHOD-NPM-PACKAGE#readme"
+}
