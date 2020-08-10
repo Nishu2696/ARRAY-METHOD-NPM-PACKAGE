@@ -1,23 +1,23 @@
-What is this?
+#What is this?
     This package describes some of the array method
 
-Installation:
+#Installation:
 
-Importing:
+#Importing:
 
-Available Functions:
+#Available Functions:
 
-SORT:
+#SORT:
 Sorts the given array in ascending order.
 
-let arr = [15, 25, 58, 7, 2, 63];
-let result = array_methods.sort(arr); //output should be [2, 7, 15, 25, 58, 63]
+`let arr = [15, 25, 58, 7, 2, 63];
+let result = array_methods.sort(arr); //output should be [2, 7, 15, 25, 58, 63]`
 
-REVERSE SORT:
+#REVERSE SORT:
 Reverse sorting gives the array sorted in descending order.
 
-let arr = [15, 25, 58, 7, 2, 63];
-let result = array_methods.rev_sort(arr); //output should be [63, 58, 25, 15, 7, 2]
+`let arr = [15, 25, 58, 7, 2, 63];
+let result = array_methods.rev_sort(arr); //output should be [63, 58, 25, 15, 7, 2]`
 
 FIRST ELEMENT:
 Finds the first element in the array.
