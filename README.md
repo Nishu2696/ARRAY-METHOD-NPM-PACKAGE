@@ -2,6 +2,7 @@
     This package describes some of the array method
 
 # Installation:
+npm i jsarraymethods
 
 # Importing:
 
