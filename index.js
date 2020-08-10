@@ -155,6 +155,9 @@ module.exports.del_first = del_first;
 
 //delete the element based on the index and return array with the deleted index element
 
-let del_index_element = (arr, b) => {}
+let del_index_element = (arr, b) => {
+    arr.splice(b, 1);
+    return arr;
+}
 
 module.exports.del_index_element = del_index_element;
