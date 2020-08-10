@@ -1,6 +1,6 @@
 {
   "name": "array_methods",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Array methods developed for ease of use for developers",
   "main": "index.js",
   "scripts": {
